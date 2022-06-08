@@ -1,0 +1,96 @@
+/** estilos de la calculadora **/
+
+#app{
+	height: 300px;
+	width: 300px;	
+
+	border: 1px solid black;
+}
+
+#app form{
+	height: 100%;
+	width: 100%;
+
+
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
+
+	background-color: black;	
+}
+
+#app input[type=texfield]{
+	width: 100%;
+}
+
+#app input[type=button]{
+
+	padding-left:16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+
+	margin-left:12px;
+	margin-right: 15px;	
+	margin-top: 15px; 
+	border-radius: 5px;	
+}
+
+#app input[type=reset]{
+
+	padding-left:16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+
+	margin-left:12px;
+	margin-right: 15px;	
+	margin-top: 15px; 
+	border-radius: 5px;	
+}
+
+.n7{
+	background-color: red;
+}
+
+.n8{
+	background-color: blue;
+}
+
+.n9{
+	background-color: green;
+}
+
+
+.n4{
+	background-color: yellow;
+}
+
+
+.n5{
+	background-color: darkcyan;
+}
+
+.n6{
+	background-color: violet;
+}
+
+.n1{
+	background-color: orange;
+}
+
+.n2{
+	background-color: darkgray;
+}
+
+.n3{
+	background-color: darkslategray;
+	color: whitesmoke;
+}
+
+/** mensaje de mas **/
+.pR{
+	background-color: yellow;
+	text-align: center;
+}
